@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anıl Aygün — Software Developer</title>
+<meta name="description" content="Anıl Aygün — junior software developer in İzmir. C++ and Lua for game servers, SQL/MySQL, PHP, mobile and automation projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:wght@400;500;600&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar-wrap">
+  <div class="wrap">
+    <div class="topbar">
+      <a href="#top" class="handle" id="top">anıl.aygün</a>
+      <nav aria-label="Primary">
+        <a href="#work">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="cv-template.pdf" target="_blank" rel="noopener" class="hide-sm">CV ↗</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" aria-labelledby="name">
+  <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+  <div class="wrap hero-content">
+    <p class="eyebrow rise"><span class="dot" aria-hidden="true"></span>Junior Software Developer and IT Systems</p>
+    <h1 class="name rise d1" id="name">Anıl Aygün</h1>
+    <div class="hero-grid">
+      <div class="rise d2">
+        <p class="lede">I enjoy building software, configuring systems and solving technical problems, whether I'm working with code, servers or hardware.</p>
+        <div class="actions">
+          <a href="#work" class="btn btn-solid">View Projects ↓</a>
+          <a href="mailto:developer@example.com" class="btn btn-line">Email me</a>
+        </div>
+      </div>
+      <dl class="facts rise d3">
+        <dt>based_in</dt><dd>İzmir, Türkiye</dd>
+        <dt>background</dt><dd>Database programming &amp; Computer Hardware</dd>
+        <dt>open_to</dt><dd>Software Development · IT Support · Game Development · Technical Infrastructure</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <!-- ================= PROJECTS ================= -->
+  <section class="block" id="work" aria-labelledby="work-title">
+    <div class="section-badge-header">
+      <div class="section-left-tag">
+        <span class="section-num">02</span>
+        <span class="section-sep">|</span>
+        <h2 class="section-prefix" id="work-title">// PROJECTS</h2>
+      </div>
+      <p class="section-subtext">Personal projects, built with curiosity and practice.</p>
+    </div>
+
+    <div class="console-box" id="project-console" role="region" aria-label="Interactive MySQL console">
+      <div class="console-query">
+        <span class="prompt">mysql&gt;</span>
+        <span class="kw">SELECT</span> * <span class="kw">FROM</span> projects<span class="console-interactive-part" id="query-tail"></span><span class="query-caret" aria-hidden="true"></span>
+      </div>
+      <div class="console-stats">
+        <span class="console-hint hide-sm">click tags ·</span>
+        <span id="projects-count">6 projects</span>
+      </div>
+    </div>
+
+    <div class="project-cards-list">
+      <!-- Project 01 -->
+      <div class="project-card open" id="p1">
+        <button class="project-card-header" aria-expanded="true" aria-controls="p1-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">01</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Game Systems &amp; Server Tools</h3>
+              <p class="card-category">Game Development &amp; Server Systems</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">C++</span>
+            <span class="tag-pill">Lua</span>
+            <span class="tag-pill">Python</span>
+            <span class="tag-pill">MySQL</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-ongoing"><span class="badge-dot"></span>Ongoing</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p1-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">Personal game development work focused on customizing gameplay systems, configuring game servers, and maintaining existing environments.</p>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Modified gameplay logic and developed custom quest systems.</li>
+                <li>Created utility scripts to simplify server-related tasks.</li>
+                <li>Configured game servers, managed databases, and troubleshot technical issues.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 02 -->
+      <div class="project-card" id="p2">
+        <button class="project-card-header" aria-expanded="false" aria-controls="p2-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">02</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Fuuk’Up</h3>
+              <p class="card-category">Mobile Application</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">React Native</span>
+            <span class="tag-pill">Expo</span>
+            <span class="tag-pill">TypeScript</span>
+            <span class="tag-pill">Firebase</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-inprogress"><span class="badge-dot"></span>In Progress</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p2-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">A mobile dating app designed to help people meet and connect through a profile-based experience.</p>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Developed mobile screens, navigation, and onboarding flows.</li>
+                <li>Worked on account authentication, profile verification, and Firebase-backed user data.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 03 -->
+      <div class="project-card" id="p3">
+        <button class="project-card-header" aria-expanded="false" aria-controls="p3-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">03</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Classified Ads &amp; Marketing Platform</h3>
+              <p class="card-category">Web Development &amp; Database Systems</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">PHP</span>
+            <span class="tag-pill">MySQL</span>
+            <span class="tag-pill">JavaScript</span>
+            <span class="tag-pill">HTML/CSS</span>
+            <span class="tag-pill">SEO</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-built"><span class="badge-dot"></span>Built</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p3-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">A dynamic classified advertising and content marketing platform featuring categorized listing directories, automated blog indexing, and SEO-optimized architecture.</p>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Designed relational MySQL schemas, PDO database connectivity, and dynamic category filtering.</li>
+                <li>Built automated cron job pipelines for content publishing, RSS feeds, and dynamic XML sitemaps.</li>
+                <li>Engineered mobile redirection, URL rewriting via .htaccess, and programmatic SEO indexing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 04 -->
+      <div class="project-card" id="p4">
+        <button class="project-card-header" aria-expanded="false" aria-controls="p4-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">04</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Pingu</h3>
+              <p class="card-category">Travel &amp; Savings Application</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">React</span>
+            <span class="tag-pill">TypeScript</span>
+            <span class="tag-pill">HTML/CSS</span>
+            <span class="tag-pill">localStorage</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-inprogress"><span class="badge-dot"></span>In Progress</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p4-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">An interactive travel savings app that helps users explore destinations, plan travel budgets, and track progress toward their savings goals.</p>
+              <div style="margin-top: 1rem;">
+                <a class="play" href="pengus-demo/index.html" target="_blank" rel="noopener">Launch Pingu Demo ↗</a>
+              </div>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Developed destination exploration and travel budget estimation features.</li>
+                <li>Created interactive elements, including mascot customization and milestone animations.</li>
+                <li>Implemented local storage for savings progress and deposit tracking.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 05 -->
+      <div class="project-card" id="p5">
+        <button class="project-card-header" aria-expanded="false" aria-controls="p5-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">05</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Job Tracker &amp; Telegram Bot</h3>
+              <p class="card-category">Automation &amp; Web Application</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">Python</span>
+            <span class="tag-pill">Playwright</span>
+            <span class="tag-pill">SQLite</span>
+            <span class="tag-pill">APScheduler</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-built"><span class="badge-dot"></span>Built</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p5-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">A personal tool that collects job listings from multiple sources, organizes opportunities, and sends notifications when new matches are found.</p>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Automated data collection and scheduled listing checks.</li>
+                <li>Implemented database storage and duplicate detection.</li>
+                <li>Integrated Telegram notifications and designed a web interface for browsing saved listings.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 06 -->
+      <div class="project-card" id="p6">
+        <button class="project-card-header" aria-expanded="false" aria-controls="p6-body">
+          <div class="card-left-group">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">06</span>
+            <span class="card-sep">|</span>
+            <div class="card-title-group">
+              <h3 class="card-title">Lab Escape</h3>
+              <p class="card-category">Browser Game</p>
+            </div>
+          </div>
+          <div class="card-tags-group">
+            <span class="tag-pill">JavaScript</span>
+            <span class="tag-pill">Web Audio API</span>
+            <span class="tag-pill">HTML/CSS</span>
+            <span class="tag-pill">localStorage</span>
+          </div>
+          <div class="card-right-group">
+            <span class="status-badge status-built"><span class="badge-dot"></span>Built</span>
+            <span class="card-chevron" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </div>
+        </button>
+        <div class="project-card-body" id="p6-body">
+          <div class="project-card-details">
+            <div class="detail-col">
+              <div class="detail-prefix">// Description</div>
+              <p class="detail-desc">A browser-based chemistry memory game where players solve matching challenges to progress through levels and escape a locked laboratory.</p>
+              <div style="margin-top: 1rem;">
+                <a class="play" href="Labescape/index.html" target="_blank" rel="noopener">Play Lab Escape ↗</a>
+              </div>
+            </div>
+            <div class="detail-col">
+              <div class="detail-prefix">// Worked on</div>
+              <ul class="detail-list">
+                <li>Developed randomized matching mechanics with increasing difficulty.</li>
+                <li>Implemented timed scoring, sound feedback, and locally stored high scores.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="block" id="skills" aria-labelledby="skills-title">
+    <div class="section-badge-header">
+      <div class="section-left-tag">
+        <span class="section-num">03</span>
+        <span class="section-sep">|</span>
+        <h2 class="section-prefix" id="skills-title">// SKILLS</h2>
+      </div>
+      <p class="section-subtext">Technologies, tools and systems I work with.</p>
+    </div>
+
+    <div class="console-box" role="region" aria-label="Skills query header">
+      <div class="console-query">
+        <span class="prompt">mysql&gt;</span> <span class="kw">DESC</span> skills;
+      </div>
+      <div class="console-stats">2 groups · 6 categories · 23 skills</div>
+    </div>
+
+    <div class="skills-main-grid">
+      <!-- 01 Software Development -->
+      <div class="skill-group-card">
+        <div class="group-card-header">
+          <div class="group-title-left">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">01</span>
+            <span class="card-sep">|</span>
+            <div class="group-title-text-group">
+              <h3 class="group-title">Software Development</h3>
+              <p class="group-tagline">Building applications and working with data.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group-category-rows">
+          <!-- Category 1: Programming -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-code" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Programming</div>
+              <div class="cat-desc">Languages I use.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">C++</span>
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">PHP</span>
+                <span class="tag-pill">JavaScript</span>
+                <span class="tag-pill">TypeScript</span>
+                <span class="tag-pill">SQL</span>
+                <span class="tag-pill">Lua</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web & Mobile -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-screen" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Web &amp; Mobile</div>
+              <div class="cat-desc">Frameworks and platforms.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">React</span>
+                <span class="tag-pill">React Native</span>
+                <span class="tag-pill">Expo</span>
+                <span class="tag-pill">WordPress</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases & Automation -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-db" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Databases &amp; Automation</div>
+              <div class="cat-desc">Data management and automation tools.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">MySQL</span>
+                <span class="tag-pill">SQLite</span>
+                <span class="tag-pill">Firebase</span>
+                <span class="tag-pill">Playwright</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02 IT & Systems -->
+      <div class="skill-group-card">
+        <div class="group-card-header">
+          <div class="group-title-left">
+            <span class="green-indicator" aria-hidden="true"></span>
+            <span class="card-index">02</span>
+            <span class="card-sep">|</span>
+            <div class="group-title-text-group">
+              <h3 class="group-title">IT &amp; Systems</h3>
+              <p class="group-tagline">Working with systems, hardware and infrastructure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group-category-rows">
+          <!-- Category 1: Operating Systems -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-screen" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Operating Systems</div>
+              <div class="cat-desc">Installation, configuration and maintenance.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">Windows</span>
+                <span class="tag-pill">BSD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Hardware -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-chip" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Hardware</div>
+              <div class="cat-desc">Assembly, upgrades and troubleshooting.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">PC Assembly</span>
+                <span class="tag-pill">Maintenance</span>
+                <span class="tag-pill">Troubleshooting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Servers -->
+          <div class="category-row">
+            <div class="category-icon-col">
+              <div class="cat-icon cat-icon-server" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+            </div>
+            <div class="category-content-col">
+              <div class="cat-name">Servers</div>
+              <div class="cat-desc">Server setup, management and remote access.</div>
+              <div class="cat-pills">
+                <span class="tag-pill">Server Setup</span>
+                <span class="tag-pill">Remote Access</span>
+                <span class="tag-pill">Maintenance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 Development Tools footer row -->
+    <div class="dev-tools-card">
+      <div class="dev-tools-left">
+        <div class="dev-tools-title-row">
+          <span class="green-indicator" aria-hidden="true"></span>
+          <span class="card-index">03</span>
+          <span class="card-sep">|</span>
+          <h3 class="group-title">Development Tools</h3>
+        </div>
+        <span class="group-tagline">Tools I use to build, experiment and improve my workflow.</span>
+      </div>
+      <div class="dev-tools-pills">
+        <span class="tag-pill">Git / GitHub</span>
+        <span class="tag-pill">VS Code</span>
+        <span class="tag-pill">Postman</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="block" id="about" aria-labelledby="about-title">
+    <div class="section-badge-header">
+      <div class="section-left-tag">
+        <span class="section-num">04</span>
+        <span class="section-sep">|</span>
+        <h2 class="section-prefix" id="about-title">// Curious about how systems work</h2>
+      </div>
+      <p class="section-subtext">Background and technical mindset.</p>
+    </div>
+    <div class="about-card">
+      <div class="prose">
+        <p>My interest in technology started with database programming and grew through building software, exploring game servers, and working with computer hardware. I enjoy solving technical problems, whether that means writing code, troubleshooting a server, or figuring out why something isn't working. Most of what I've learned comes from experimenting, building things myself, and finding ways to make them better.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="block" id="contact" aria-labelledby="contact-title">
+    <h2 class="h2" id="contact-title">Have a problem worth solving?</h2>
+    <p class="contact-sub">I'm open to junior software, web development, game development, and AI-application roles. Send a short note about the project and I'll reply.</p>
+    <a href="mailto:developer@example.com" class="email">developer@example.com</a>
+    <div class="contact-actions">
+      <button type="button" class="btn btn-solid" id="copy">Copy email address</button>
+      <a href="cv-template.pdf" target="_blank" rel="noopener" class="btn btn-line">Download CV ↗</a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Anıl Aygün</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
