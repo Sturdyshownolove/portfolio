@@ -18,7 +18,7 @@
     copy.addEventListener('click', async () => {
       try {
         const emailEl = document.querySelector('a.email');
-        const emailText = emailEl ? emailEl.textContent.trim() : 'developer@example.com';
+        const emailText = emailEl ? emailEl.textContent.trim() : 'anilaygun335@gmail.com';
         await navigator.clipboard.writeText(emailText);
         copy.textContent = 'Email address copied';
       } catch {

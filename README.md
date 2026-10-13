@@ -1,4 +1,4 @@
-﻿# 💼 Developer Portfolio Website
+# 💼 Developer Portfolio Website
 
 A clean, responsive, editorial-style personal portfolio website built with semantic HTML5, modern CSS (flexbox/grid/animations), and vanilla JavaScript.
 
@@ -10,7 +10,7 @@ A clean, responsive, editorial-style personal portfolio website built with seman
 
 ## 🛠 Customization
 - Open `index.html` to update your name, bio, social links, and email.
-- Replace `cv-template.pdf` with your own resume/CV.
+- The latest resume is linked at `Anil-Aygun-CV.pdf`.
 - Custom styling can be adjusted in `style.css`.
 
 
